@@ -5,7 +5,6 @@ module Main where
 import Data.Char (isDigit, isSpace, ord)
 import qualified Data.HashSet as HS
 import Data.List.Split (splitOn)
-import Debug.Trace (trace)
 import Text.Read (readMaybe)
 
 main :: IO ()
